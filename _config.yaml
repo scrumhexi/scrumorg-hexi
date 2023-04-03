@@ -1,0 +1,11 @@
+title: Hexi for Scrum.org
+description: 
+
+baseurl: /learn/azure-devops-migration-tools
+url: "https://nkdagility.com"
+
+githuburl: https://github.com/scrumhexi/scrumorg-hexi/
+source: ./docs
+destination: ./_site
+permalink: pretty
+logo: 
