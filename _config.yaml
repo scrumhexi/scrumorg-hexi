@@ -1,11 +1,55 @@
-title: Hexi for Scrum.org
+title: Hexi for Scrumorg
 description: 
 
-baseurl: /learn/azure-devops-migration-tools
-url: "https://nkdagility.com"
+baseurl: /scrumorghexi
+url: "https://scrumhexi.github.io"
 
 githuburl: https://github.com/scrumhexi/scrumorg-hexi/
 source: ./docs
 destination: ./_site
 permalink: pretty
 logo: 
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: 
+      toc: true
+
+toc:
+  min_level: 1
+  max_level: 2
+  ordered_list: false
+  no_toc_section_class: no_toc_section
+  list_id: toc
+  list_class: section-nav bd-links-nav list-unstyled pb-1 small
+  sublist_class: ''
+  item_class: toc-entry align-items-center pb-2
+  item_prefix: toc-
+
+include:
+ - "**/*.md"
+ - "*.md"
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-toc
+  - jekyll-time-to-read
+  - jekyll-optional-front-matter
+  - jekyll-last-modified-at
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: coderay
+  auto_ids: true
+  syntax_highlighter_opts:
+    wrap: div
+
+
+
+relative_links:
+  enabled:     true
+  collections: false

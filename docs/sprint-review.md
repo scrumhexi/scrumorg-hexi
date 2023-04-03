@@ -1,7 +1,7 @@
 ---
-title: Getting Started
+title: Sprint Review
 layout: default
-toc: true
+includeInSidebar: true
 ---
 
 # Sprint Review
