@@ -2,6 +2,9 @@
 title: Sprint Review
 layout: default
 includeInSidebar: true
+costResource: 3
+complexFacilitationSkill: 4
+engagementGradient: 5
 ---
 
 # Sprint Review
