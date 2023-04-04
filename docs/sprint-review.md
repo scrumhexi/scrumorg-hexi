@@ -2,6 +2,7 @@
 title: Sprint Review
 layout: default
 includeInSidebar: true
+isHexi: true
 costResource: 3
 complexFacilitationSkill: 4
 engagementGradient: 5
@@ -15,17 +16,18 @@ Type: Event
 
 Where the Scrum Team share the outcome of the Sprint and collaborate with the stakeholders
 
+
 ## Cost and Resources
 
-3
+
 
 ## Complex Facilitation Skill
 
-4
+
 
 ## Engagement Gradient
 
-5
+
 
 ## Details
 

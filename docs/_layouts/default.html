@@ -70,6 +70,20 @@
                         </div>
                     </div>
                 </div>
+                {% if page.isHexi == true %}
+                <div class="p-2">
+                    <div class="card">
+                        <h5 class="no_toc card-header">Hexi Stats</h5>
+                        <div class="card-body">
+                            <ul class="bd-links-nav list-unstyled pb-1 small">
+                                <li>Cost and Resources: {{page.costResource}}</li>
+                                <li>Complex Facilitation Skill: {{page.costResource}}</li>
+                                <li>Engagement Gradient: {{page.costResource}}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
                 {% if page.toc == true %}
                 <div class="sticky-top p-2">
                     <div class="card">
