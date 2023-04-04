@@ -54,10 +54,10 @@
                     </div>
                 </article>
             </div>
-            <div class="p-2 d-none d-xl-block justify-content-start" style="max-width: 300px;">
+            <div class="p-2 d-none d-xl-block justify-content-start" style="max-width: 400px;min-width: 300px;">
                 <div class="p-2">
                     <div class="card">
-                        <h5 class="no_toc card-header">Created By</h5>
+                        <h5 class="no_toc card-header">Contributors</h5>
                         <div class="card-body">
                             <ul class="bd-links-nav list-unstyled pb-1 small">
                                 <li><a href="#" target="_blank">Martin Hinshelwood</a></li>
@@ -75,7 +75,9 @@
                     <div class="card">
                         <h5 class="no_toc card-header">In this article</h5>
                         <div class="card-body">
+                            <div class="bd-links-nav list-unstyled pb-1 small">
                             {{ content | toc_only }}
+                            </div>
                         </div>
                     </div>
                 </div>
